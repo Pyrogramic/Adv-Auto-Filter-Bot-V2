@@ -1639,7 +1639,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-        InlineKeyboardButton('👨🏻‍🎓 My Dev', url="https://t.me/VIVEK_KERALA"),
+        InlineKeyboardButton('🤔 Help', callback_data='help'),
         InlineKeyboardButton('🤖 About', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
