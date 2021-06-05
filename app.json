@@ -23,6 +23,14 @@
             "description": "Your Bot Token From @BotFather",
             "value": ""
         },
+        "OWNER_NAME": {
+            "description": "Your Name",
+            "value": ""
+        },
+        "OWNER_USERNAME": {
+            "description": "Your Username",
+            "value": ""
+        },
         "DB_URI": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
             "value": ""
