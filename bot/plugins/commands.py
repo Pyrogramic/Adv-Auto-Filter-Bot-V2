@@ -6,6 +6,8 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
+from config
+
 
 db = Database()
 
@@ -38,7 +40,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel 🎬', url="https://t.me/joinchat/lNPUvWyEcW5jYjE9"
+                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
                                 )
                         ]
                     ]
@@ -57,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel 🎬', url="https://t.me/joinchat/lNPUvWyEcW5jYjE9"
+                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
                                 )
                         ]
                     ]
@@ -76,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Channel 🎬', url="https://t.me/joinchat/lNPUvWyEcW5jYjE9"
+                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
                                 )
                         ]
                     ]
@@ -89,8 +91,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('👨🏻‍🎓 My Dev', url="https://t.me/VIVEK_KERALA"),
-        InlineKeyboardButton('🤖About', callback_data='about')
+        InlineKeyboardButton('🤔 Help', callback_data='help'),
+        InlineKeyboardButton('🤖 About', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
