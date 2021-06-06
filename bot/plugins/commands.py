@@ -40,7 +40,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
+                                    'Developers', url="https://t.me"
                                 )
                         ]
                     ]
@@ -59,7 +59,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
+                                    'Developers', url="https://t.me"
                                 )
                         ]
                     ]
@@ -78,7 +78,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '👨🏻‍🎓 My Dev', url="https://t.me/{config.OWNER_USERNAME}"
+                                    'Developers', url="https://t.me"
                                 )
                         ]
                     ]
