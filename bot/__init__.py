@@ -21,6 +21,10 @@ DB_URI = os.environ.get("DB_URI")
 
 USER_SESSION = os.environ.get("USER_SESSION")
 
+OWNER_NAME = os.environ.get("OWNER_NAME")
+
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME")
+
 VERIFY = {}
 
 logging.basicConfig(
