@@ -2,18 +2,17 @@
 # -*- coding: utf-8 -*-
 # (c) @AlbertEinsteinTG
 
+from config import Config 
 import os
 class Translation(object):
-    
-owner=os.environ["OWNER_USERNAME"]
-ownername=os.environ["OWNER_NAME"]
+  
 
     START_TEXT = """<b>Hey {}!!
 Am Just A Advance Auto Filter Bot....😉
 
 You Can't Use Me.I Specially Maded For My Group.
 
- 🕵‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ 👉 <a href="https://t.me/{owner}">{ownername}</a></b>"""    
+ 🕵‍♂ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ 👉 <a href="https://t.me/{Config.OWNER_USERNAME}">{Config.OWNER_NAME}</a></b>"""    
     
     HELP_TEXT = """
 **My Owners Can Only See This 😋**
